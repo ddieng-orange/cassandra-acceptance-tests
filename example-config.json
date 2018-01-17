@@ -1,0 +1,10 @@
+{
+	"timeout_scale": 10.0,
+	"cassandra_hosts": ["127.0.0.1","127.0.0.1","127.0.0.1"],
+	"cassandra_port": ["27018", "27019", "27020"],
+	"cassandra_root_username": "CassandraRoot",
+	"cassandra_root_password": "toto",
+	"cassandra_replica_set_name": "rs0",
+	"cassandra_replica_set_enable": 1,
+	"cassandra_test_suite": ["replicaset"]
+}
